@@ -128,7 +128,7 @@ const PngUpLoader: FC = () => {
           <Segment>
             IPFS Link is{' '}
             <a
-              href={`https://gateway.pinata.cloud/ipfs/${resultHash}`}
+              href={`https://pitpa.mypinata.cloud/ipfs/${resultHash}`}
               target="_blank"
               rel="noreferrer noopener"
             >
