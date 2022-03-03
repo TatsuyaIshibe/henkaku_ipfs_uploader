@@ -40,7 +40,7 @@ const PngUpLoader: FC = () => {
 
     const jstNow = new Date(Date.now() + ((new Date().getTimezoneOffset() + (9 * 60)) * 60 * 1000));
     parsedSVGDoc.getElementById('henkaku_published_date')!.textContent = jstNow.getFullYear() + '.' + ('00' + (jstNow.getMonth()+1)).slice(-2) + '.' + ('00' + jstNow.getDate()).slice(-2);
-    parsedSVGDoc.getElementById('henkaku_point')!.textContent = '$' + point + 'Henkaku';
+    parsedSVGDoc.getElementById('henkaku_point')!.textContent = point;
     parsedSVGDoc.getElementById('henkaku_role')!.textContent = role;
 
     if (profileBase64) {
